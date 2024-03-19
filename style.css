@@ -1,0 +1,76 @@
+body{
+  background-image: url(background.jpg);
+  background-position: center;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  }
+
+.Contenitore-Main{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  }
+
+.logo{
+  display: block;
+  margin: auto;
+  text-align: center;
+  height: 100px;
+  }
+
+.titolo{
+  text-align: center;
+  color:  lime;
+}
+.Pulsanti{
+  background-color: lime;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.titoletto{
+  font-size: 28px;
+  line-height: 2;
+}
+.Monopattino{
+  margin-bottom: 80px;
+  color: white;
+}
+
+.Contenitore2{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.Des:before{
+content:  ' \21A6';
+line-height: 2;
+}
+
+.Batteria1{
+  margin-top: 4px;
+  border-radius: 5px;
+  background-color: orange;
+  height: 28px;
+  width: 35%;
+}
+.Batteria2{
+  margin-top: 4px;
+  border-radius: 5px;
+  background-color: green;
+  height: 28px;
+  width: 55%;
+}
+.Batteria3{
+  margin-top: 4px;
+  border-radius: 5px;
+  background-color: red;
+  height: 28px;
+  width: 15%;
+}
